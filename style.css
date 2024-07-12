@@ -3,3 +3,40 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+section#featured-property figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: chartreuse;
+}
+section#featured-property figure figcaption {
+  font-size: smaller;
+  display: block;
+  text-align: center;
+}
+section#featured-property p {
+  width: 800px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /*vertical space around <p>? */
+}
+
+section#details div {
+  float:left;
+  background-color: blue;
+  text-align: center;
+  width: 25%;
+  /*width, each occupy 25% of the bottom row */
+}
